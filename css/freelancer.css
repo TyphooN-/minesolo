@@ -203,6 +203,7 @@ header.masthead h2 {
 
 .portfolio {
   margin-bottom: -15px;
+  text-align: center;
 }
 
 .portfolio .portfolio-item {
@@ -360,7 +361,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: #2DE8C8 !important;
 }
 
 .btn-primary {
