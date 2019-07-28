@@ -67,6 +67,14 @@ body {
   outline: 0 !important;
 }
 
+specs {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: left;
+}
+
 hr {
   box-sizing: content-box;
   height: 0;

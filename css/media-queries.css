@@ -1,0 +1,515 @@
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	header, nav, #header-ctnr, footer, #container{
+	width: 100%;
+	}
+
+.container 
+{
+	width:100%;
+}
+.block-explorer-btn
+{
+	display:none;
+}
+.menu-sec
+{
+	width:auto;	clear:both;	float:right;
+	position:fixed;
+	margin-top:0px;
+	top: 25px;
+	
+	right: 20px;
+	
+	height: 50px;
+
+}
+.navbar
+{
+	width:100%; margin:0px;  float:right; text-align:right;
+}
+.navbar-toggler:not(:disabled):not(.disabled) 
+{
+    cursor: pointer;
+    float: right;
+	position:absolute;
+    right: 0px;
+	top:0px;
+	background-color:#fff;
+	z-index:9999;
+}
+.navbar-collapse
+{
+	margin-top:50px;
+	background-color:#191919 !important;
+	border-radius:8px;
+}
+.nav-item
+{
+	border-bottom:#414141 solid 1px;
+	padding-top:3px;
+	font-weight:600;
+}
+.mr-auto, .mx-auto 
+{
+    margin-right: auto !important;
+    margin-top:0px;
+}
+#banner-section 
+{
+    width: 100%;
+    clear: both;
+    float: left;
+    height: 500px;
+    background: url(../images/background.png) no-repeat center bottom;
+    background-size: auto;
+    background-size: cover;
+}
+#banner-cntr 
+{
+    width: 100%;
+    clear: both;
+    float: left;
+    padding: 0px 0px 140px 0px;
+}
+.logo
+{
+	float:left;
+	width:100%;
+	padding-top:10px;
+}
+.logo img
+{
+	float:left;
+	width:80px;
+}
+
+.banner-text
+{
+	float:left;
+	z-index:99999;
+	padding:70px 0px 50px 0px;
+	width:100%;
+	clear:both;
+}
+.banner-text h1
+{
+	color:#39ffd4;
+	text-transform:uppercase;
+	font-size:45px;
+	line-height: 55px;
+}
+.banner-text h2
+{
+	color:#fff;
+	font-size:38px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.banner-text h3
+{
+	color:#fff;
+	font-size:38px;
+	text-transform:uppercase;
+	font-weight:200;
+}
+.banner-text ul
+{
+	margin-top:8px;
+	padding:0px;
+}
+.banner-text li
+{
+	font-size:15px;
+	color:#fff;
+    text-transform:uppercase;
+	font-weight:500;
+	float:left;
+	list-style-type:none;
+	padding-right:20px;
+	letter-spacing:2px;
+}
+.banner-text li a
+{
+	font-size:15px;
+	color:#fff;
+	text-decoration:none;
+}
+.banner-text li a:hover
+{
+	font-size:15px;
+	color:#fff;
+	text-decoration:none;
+}
+.banner-text span
+{
+	font-weight:400;
+}
+.banner-text-btn
+{
+	float:left;
+	background-color:#2de8c8;
+	font-size:18px;
+	color:#0d1532;
+	border-radius:100px;
+	text-transform:uppercase;
+	font-weight:400;
+	padding:15px 40px;
+	letter-spacing:.50px;
+	margin-top:25px;
+	border:#000 solid 3px;	
+}
+.banner-logo
+{
+	background:url(../images/logo2.png) no-repeat right top;
+	height:563px; width:563px;
+	float:right;
+	margin-top:-40px;
+        display: none;
+
+}
+.inspiration-sec p 
+{
+    font-size: 16px;
+    color: #1a3749;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.features-content 
+{
+    width: 100%;
+    float: left;
+    font-size: 13px;
+    color: #d2d2d3;
+    line-height: 22px;
+    letter-spacing: .40px;
+    margin-top: 30px;
+    padding-bottom: 4px;
+	text-align:justify;
+}
+.graphic 
+{
+    width: 100%;
+    float: left;
+    font-size: 13px;
+    margin-top: 45px;
+	margin-bottom:20px;
+}
+.features-service 
+{
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 30px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+#download 
+{
+    width: 100%;
+    background:url(../images/download-logo-bg.png) no-repeat center;
+	background-size:contain !important;
+    float: left;
+    clear: both;
+    padding-top:70px;
+    padding-bottom: 50px;
+	background-size: cover;
+	height:auto;
+	background-color:#8d8d8d;
+}
+.download-col 
+{
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
+.download-sec 
+{
+    float: left;
+    background-color: #666565;
+    width: 100%;
+    border-radius: 10px;
+    padding:15px 0px;
+    text-align: center;
+    margin-bottom:15px;
+}
+.contact-logo
+{text-align:center;
+}
+.contact-logo img
+{
+    width: 80%;
+}
+.contact-section 
+{
+    width: 100%;
+	clear:both;
+	float:left;
+}
+.contact-col 
+{
+    width:100%;
+    float: left;
+}
+.contact-col textarea 
+{
+    width: 100%;
+}
+.social-link 
+{
+    width: 260px;
+    margin: 0px auto;
+}
+.btn-mng 
+{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.copyright 
+{
+    font-size: 12px;
+	padding-bottom:10px;
+}
+.road-map-content-sec-right 
+{
+    width: 100%;
+    float: right;
+    padding-left: 20%;
+    margin-top: 25px;
+}
+.road-map-content-sec
+{
+	width:100%;
+	float:left;
+	clear:both;
+	padding-right:20%;
+	margin-top: 25px;
+}
+.month-info
+{
+	background:url(../images/month-bg.png) no-repeat right;
+	background-image:none;
+	background-color:#2de8c8;
+	border-radius:44px;
+	font-size:14px;
+	color:#070f2c;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:center;
+	padding: 15px 0px;
+	width:250px;
+	float:left;
+	letter-spacing:1px;
+	margin-bottom: 10px;
+}
+.month-info2
+{
+	background:url(../images/month-bg.png) no-repeat right;
+	background-image:none;
+	background-color:#2de8c8;
+	border-radius:44px;
+	font-size:14px;
+	color:#070f2c;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:center;
+	padding: 15px 0px;
+	width:250px;
+	float:left;
+	letter-spacing:1px;
+	margin-bottom: 10px;
+}
+
+.month-info-right 
+{
+	background:url(../images/month-bg.png) no-repeat right;
+	background-image:none;
+	background-color:#2de8c8;
+	border-radius:44px;
+	font-size:14px;
+	color:#070f2c;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:center;
+	padding: 15px 0px;
+	width:250px;
+	float:left;
+	letter-spacing:1px;
+	margin-bottom: 10px;
+}
+
+.month-info-right2
+{
+	background:url(../images/month-bg.png) no-repeat right;
+	background-image:none;
+	background-color:#2de8c8;
+	border-radius:44px;
+	font-size:14px;
+	color:#070f2c;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:center;
+	padding: 15px 0px;
+	width:250px;
+	float:left;
+	letter-spacing:1px;
+	margin-bottom: 10px;
+}
+.road-map
+{
+	width:100%;
+	float:left;
+	background:url(../images/road-map-icon.png) no-repeat center;
+	height:181px;
+}
+.road-map-line
+{
+	width:100%;
+	float:left;
+	background:url(../images/road-map-line.png) repeat-y center;
+
+}
+.roadmap-date
+{
+	background:url(../images/roadmap-date.png) no-repeat;
+	font-size:24px;
+	color:#070f2c;
+	font-weight:bold;
+	padding: 18px 47px;
+	width: 154px;
+    margin: 0px auto;
+	right:85px;
+	position:relative;
+}
+.road-map-content
+{
+	width:100%;
+	float:left;
+	background-color:rgba(25,25,25,0.8);
+}
+.map-content
+{
+	width:100%;
+	margin:10px 25px 25px 15px;
+	float:left;
+	padding:10px;
+
+}
+.map-content ul
+{
+	margin:0px;
+	padding:0px;
+	
+}
+.map-content li
+{
+	font-size:14px;
+	color: #d2d2d3;
+	float:left;
+	list-style-type:none;
+	clear:both;
+	text-align:left;
+	background:url(../images/arrow7.png) no-repeat 0px 7px;
+	padding: 5px 16px;
+}
+.map-content-right
+{
+	width:100%;
+	margin:10px 25px 25px 15px;
+	float:left;
+	padding:10px;
+
+}
+.map-content-right  ul
+{
+	margin:0px;
+	padding:0px;
+}
+.map-content-right li
+{
+	font-size:14px;
+	color: #d2d2d3;
+	float:left;
+	list-style-type:none;
+	clear:both;
+	text-align:left;
+	background:url(../images/arrow7.png) no-repeat 0px 7px;
+	padding: 5px 16px;
+}
+.map-content-sm
+{
+	width:100%;
+	float:left;
+	margin-bottom: 20px;
+	padding-right:0px;
+	padding-left:40px;
+}
+.map-content-sm ul
+{
+	margin:0px;
+	padding:0px;
+}
+.map-content-sm li
+{
+	font-size:12px;
+	color: #d2d2d3;
+	float:right;
+	list-style-type:none;
+	clear:both;
+	text-align:left;
+	background:url(../images/arrow9.png) no-repeat 0px 5px;
+	padding: 5px 15px;
+}
+.map-content-sm-right
+{
+	width:100%;
+	float:left;
+	padding-right: 12px;
+	padding-left: 25px;
+    margin-top: 10px;
+}
+.map-content-sm-right ul
+{
+	margin:0px;
+	padding:0px;
+}
+.map-content-sm-right li
+{
+	font-size:12px;
+	color: #d2d2d3;
+	float:left;
+	list-style-type:none;
+	clear:both;
+	text-align:left;
+	background:url(../images/arrow9.png) no-repeat left;
+	padding: 5px 15px;
+}
+.features-service
+{
+	width:46%;
+	margin:5px 2% 12px 2%;
+	float:left;
+	padding-top:30px;
+	background-color:#fff;
+	border-radius:10px;
+	text-align:center;
+	height: 230px;
+}
+#contact
+{
+	width:100%;
+	background:url(../images/contact-bg.jpg) repeat-x center;
+	float:left;
+	clear:both;
+	padding-top:70px;
+	padding-bottom:60px;
+	height:845px;
+	background-color:#8b8b8b;
+}
+}

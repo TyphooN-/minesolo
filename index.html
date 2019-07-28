@@ -1,273 +1,645 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Solo | Secure, Decentralized, Fast</title> 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Custom CSS -->
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="css/media-queries.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/custom-style.css" rel="stylesheet">
+    
+    <!-- Fonts CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Solo | Scalable, Decentralized, Private</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/freelancer.css" rel="stylesheet">
 
 </head>
+<body>
 
-<body id="page-top">
+<div id="wrapper">
+<!--Home Screen -->
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img height=100 src="img/solo/solo_word_logo_white.png" alt=""></a>
-      <button class="navbar-toggler navbar-toggler-right text-uppercase bg-secondary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+  <section id="home">
+<div class="demo">
+   <div class="content">
+      <div id="large-header" class="large-header">
+         <canvas id="demo-canvas"></canvas>
+      </div>
+   </div>
+</div>
+
+<div id="banner-section">
+<header id="header">
+<div class="container">
+<div class="row">
+<div class="col-md-2"><div class="logo"><a class="js-scroll-trigger" href="#home"><img src="images/logo.png"></a></div></div>
+
+<div class="col-md-8">
+<div class="menu-sec">
+<div class=" navbar navbar-expand-lg navbar-light bg-light rounded">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+      <div class="collapse navbar-collapse" id="navbarsExample09">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Specifications</a>
+        <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#home">home</a>
           </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#exchange">Exchange</a>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#features">Features</a>
           </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Downloads</a>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#exchange">Exchange </a>
           </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#download">Download</a>
           </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="https://explorer.minesolo.com/">Block Explorer</a>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#roadmap">Roadmap</a>
           </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="https://wiki.minesolo.com/">Wiki</a>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
-    </div>
   </nav>
-
-  <!-- Header -->
-  <header class="masthead bg-secondary text-white text-center">
-    <div class="container">
-      <img class="img-fluid d-block mx-auto" src="img/solo/solo_word_logo_white.png" alt="">
-      <h2 class="font-weight-light mb-0">Scalable, Decentralized, Private</h2>
-    </div>
-  </header>
-
-  <!-- About Section -->
-  <section class="bg-secondary text-white mb-0" id="about">
-    <div class="container">
-      <h2 class="text-center text-uppercase text-white mb-5">Specifications</h2>
-      <div class="row">
-        <div class="col-lg-6 ml-auto">
-          <p class="lead">PoW algorithm: CN-IO</p>
-        </div>
-        <div class="col-lg-6 mr-auto">
-		<p class="lead">Protocols: RingCT, CryptoNote, Bulletproofs, SECOR</p>
-        </div>
-        <div class="col-lg-6 mr-auto">
-		<p class="lead">Block time: 20 seconds</p>
-        </div>
-        <div class="col-lg-6 mr-auto">
-		<p class="lead">Difficulty: Re-targets at every block</p>
-        </div>
-        <div class="col-lg-6 mr-auto">
-		<p class="lead">Genesis block:  11/2/2018, 8:00:54 AM UTC</p>
-        </div>
-        <div class="col-lg-6 mr-auto">
-		<p class="lead">Max supply: ~18.5 Billion before tail emission</p>
-        </div>
-       <div class="col-lg-6 mr-auto">
-		<p class="lead">Adaptive Reward based on historical data - emission formula slightly decreases block reward each block as a function of all coinbase transaction amounts previously generated. Reward for blocks 1-88,000 based on a speed factor per minute of 22, resulting in a reward ranging from ~549.76 to ~548.32.</p>
-        </div>
-        <div class="col-lg-6 mr-auto">
-		<p class="lead">Reward for blocks 88,001 and greater based on a speed factor per minute of 25, resulting in a reward starting at ~4,386.53 at block 88,001. At block 227,001 the block target was changed from 60s -> 20s and thus the reward cut into 1/3, resulting in a reward starting at ~1414.51. See the latest <a href="http://explorer.minesolo.com/">block</a> coinbase transaction amount for the current <a href="http://explorer.minesolo.com/">block reward.</a></p>
-	</div>
-        <div class="col-lg-6 mr-auto">
-                <p class="lead">Premine and Early Contributions: Solo is a continuation of a side project started by NERVA developer angrywasp and included a pre-mine of ~70,368, representing 0.00038% of the total supply. At block 66001 a hard fork was activated, after this time the founder no longer participated in development. At the time of the fork ~36,318,207 coins had been minted representing ~0.196% of the total supply.</p>
-        </div>
-    </div>
-
-  <section id="exchange">
-  <h2 class="text-center text-uppercase text-white mb-5">Exchange</h2>
-     <a href="https://cratex.io/index.php?pair=XSL/BTC"><img class="img-fluid d-block mx-auto" src="img/cratex.png" alt=""></a>
-     <a href="https://tradecx.io/markets/xslbtc"><img height=100 class="img-fluid d-block mx-auto" src="img/tradecx.png" alt=""></a>
-     <a href="https://fcbaccount.com/fcb/exchange/XSL/BTC"><img height=100 class="img-fluid d-block mx-auto" src="img/fcb.png" alt=""></a>
-  </section>
-
-  </section>
-
-  <!-- Portfolio Grid Section -->
-  <section class="portfolio" id="portfolio">
-    <div class="container">
-      <h2 class="text-center text-uppercase text-secondary mb-5">Downloads</h2>
-      <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <a href="https://files.minesolo.com/solo-latest-linux64.zip">
-          <p class="lead">Linux</p>
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-              </div>
-            </div>
-            <img class="img-fluid" src="img/solo/linux_grey.png" alt="">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <a href="https://files.minesolo.com/solo-latest-win64.zip">
-          <p class="lead">Windows</p>
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-              </div>
-            </div>
-            <img class="img-fluid" src="img/solo/windows_grey.png" alt="">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <a href="https://files.minesolo.com/solo-latest-macos64.zip">
-          <p class="lead">MacOS</p>
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-              </div>
-            </div>
-            <img class="img-fluid" src="img/solo/apple_grey.png" alt="">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <a href="https://files.minesolo.com/snapshot.zip">
-          <p class="lead">Blockchain Snapshot (zip)</p>
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-              </div>
-            </div>
-            <img class="img-fluid" src="img/solo/solo_logo_white_grey.png" alt="">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <a href="https://files.minesolo.com/snapshot.7z">
-          <p class="lead">Blockchain Snapshot (7z)</p>
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-              </div>
-            </div>
-            <img class="img-fluid" src="img/solo/solo_logo_white_grey.png" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="container">
-      <h2 class="text-center text-uppercase text-secondary mb-5">Contact The Team</h2>
-      <a href="http://discord.minesolo.com/"><img class="img-fluid d-block mx-auto" src="img/Discord-Logo+Wordmark-Black.png" alt=""></a>
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-          <form name="sentMessage" id="contactForm" novalidate="novalidate">
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Name</label>
-                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Email Address</label>
-                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Message</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <br>
-            <div id="success"></div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Source</h4>
-	  <a href="https://gitlab.com/solo-project/solo/"><img width=100 src="img/gitlab_white.png" alt=""></a>
-        </div>
-        <div class="col-md-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Around The Web</h4>
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.twitter.com/SoloXsl/">
-                <i class="fab fa-fw fa-twitter"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h4 class="text-uppercase mb-5">Inspiration</h4>
-          <p class="lead mb-0">"Proof-of-work also solves the problem of determining representation in majority decisionmaking.  If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote." Satoshi Nakamoto
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <div class="copyright py-4 text-center text-white">
-    <div class="container">
-      <small>Copyright &copy; Solo Project 2018-2019 | <a href="legal.html">Legal</a></small>
-    </div>
-  </div>
-
-  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-  <div class="scroll-to-top d-lg-none position-fixed ">
-    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
-  </div>
+</div>
+</div>
+</div>
+<div class="col-md-2"><a class="block-explorer-btn" href="https://explorer.minesolo.com/" target="_blank">Block Explorer</a></div>
+</div>
+</header>
 
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<div id="banner-cntr">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="banner-text">
+<h2>Secure</h2>
+<h1>Decentralized</h1>
+<h3>Fast</h3>
+<ul>
+<li><a href="#">POOL AND CENSORSHIP RESISTANT</a></li>
+</ul>
+<a class="banner-text-btn js-scroll-trigger" href="#download"><strong>GET STARTED </strong>  <img src="images/btn-arrow.png"> </a>
+</div>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<div class="banner-logo"></div>
 
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/freelancer.min.js"></script>
+<div id="inspiration-cntr">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="inspiration-sec">
+<h1>Inspiration</h1>
+<p>"Proof-of-work also solves the problem of determining representation in majority decisionmaking. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote." <strong> - Satoshi Nakamoto</strong></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- End -->
 
-</body>
 
+<!--Features Screen -->
+<section id="features">
+<div class="container">
+<div class="heading">Features</div>
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="features-service">
+<img src="images/s-icon1.png">
+<h2>PoW Algorithm</h2>
+<h3>CN-IO</h3>
+</div>
+
+
+
+<div class="features-service">
+<img src="images/s-icon2.png">
+<h2>Block Time</h2>
+<h3>20 seconds</h3>
+</div>
+
+
+
+<div class="features-service">
+<img src="images/s-icon3.png">
+<h2>Genesis Block</h2>
+<h3>11/2/2018,<br>
+8:00:54 AM UTC</h3>
+</div>
+
+
+
+<div class="features-service">
+<img src="images/s-icon4.png">
+<h2>Protocols</h2>
+<h3>CryptoNote, RingCT,
+Bulletproofs, SECOR</h3>
+</div>
+
+
+
+<div class="features-service">
+<img src="images/s-icon5.png">
+<h2>Difficulty</h2>
+<h3>Re-targets at<br>every block</h3>
+</div>
+
+
+
+<div class="features-service">
+<img src="images/s-icon6.png">
+<h2>Max Supply</h2>
+<h3>18.4 Billion before<br>tail emission</h3>
+
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="features-content">
+
+Adaptive Reward based on historical data - emission formula slightly decreases block reward each block as a function of all coinbase transaction amounts previously generated. Reward for blocks 1-88,000 based on a speed factor per minute of 22, resulting 
+in a reward ranging from ~549.76 to ~548.32.<br><br>
+
+
+Premine and Early Contributions: Solo is a continuation of a side project started by NERVA developer angrywasp and included a pre-mine of ~70,368, representing 0.00038% of the total supply. At block 66001 a hard fork was activated, after this time the founder
+no longer participated in development. At the time of the fork ~36,318,207 coins had been minted 
+representing ~0.196% of the total supply.<br><br>
+
+
+Reward for blocks 88,001 and greater based on a speed factor per minute of 25, resulting in a reward starting at ~4,386.53 at block 88,001. At block 227,001 the block target was changed from 60s -> 20s and thus the reward cut into 1/3, resulting in a reward starting at ~1414.51. See the latest block coinbase transaction amount for the <a href="https://explorer.minesolo.com/">last block reward</a>.
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="graphic"><img src="images/graphic.png"></div></div>
+
+
+</div>
+</div>
+</section>
+<!--End -->
+
+
+<!--Exchange Screen -->
+<section id="exchange">
+<div class="container">
+<div class="heading">Exchange</div>
+<div class="row">
+<div class="col-md-4">
+<div class="exchange-logo"><a href="https://cratex.io/index.php?pair=XSL/BTC"><img src="images/exchange-logo1.png"></a></div>
+</div>
+
+<div class="col-md-4">
+<div class="exchange-logo"><a href="https://fcbaccount.com/fcb/exchange/XSL/BTC"><img src="images/exchange-logo2.png"></a></div>
+</div>
+
+<div class="col-md-4">
+<div class="exchange-logo"><a href="https://tradecx.io/markets/xslbtc"><img src="images/exchange-logo3.png"></a></div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- End -->
+
+<!--Downloads Screen -->
+<section id="download">
+<div class="container">
+<div class="heading-Dark">Downloads</div>
+<div class="download-col">
+<div class="download-sec"> 
+<a href="https://files.minesolo.com/solo-latest-linux64.zip"><img src="images/download-icon1.png"></a>
+</div>
+<h2>Linux</h2>
+</div>
+
+<div class="download-col">
+<div class="download-sec"> 
+<a href="https://files.minesolo.com/solo-latest-win64.zip"><img src="images/download-icon2.png"></a>
+</div>
+<h2>Windows</h2>
+</div>
+
+<div class="download-col">
+<div class="download-sec"> 
+<a href="https://files.minesolo.com/solo-latest-macos64.zip"><img src="images/download-icon3.png"></a>
+</div>
+<h2>Apple</h2>
+</div>
+
+<div class="download-col">
+<div class="download-sec"> 
+<a href="https://files.minesolo.com/solo-latest-android64.zip"><img src="images/download-icon4.png"></a>
+</div>
+<h2>Android</h2>
+</div>
+
+<div class="download-col">
+<div class="download-sec"> 
+<a href="https://files.minesolo.com/solo-latest-arm64.zip"><img src="images/download-icon4.png"></a>
+</div>
+<h2>ARM64 LINUX</h2>
+</div>
+
+<div class="download-col">
+<div class="download-sec"> 
+<a href="https://files.minesolo.com/solo-latest-armhf.zip"><img src="images/download-icon4.png"></a>
+</div>
+<h2>ARMHF LINUX</h2>
+</div>
+
+<div class="download-col">
+<div class="download-sec"> 
+<a href="https://files.minesolo.com/snapshot.zip"><img src="images/download-icon4.png"></a>
+</div>
+<h3>Blockchain <br>
+<strong>Snapshot (zip)</strong></h3>
+</div>
+
+<div class="download-col">
+<div class="download-sec"> 
+<a href="https://files.minesolo.com/snapshot.7z"><img src="images/download-icon4.png"></a>
+</div>
+<h3>Blockchain <br>
+<strong>Snapshot (7z)</strong></h3>
+</div>
+
+
+</div>
+</section>
+
+<!-- End -->
+
+
+
+<!-- Solo Roadmap Screen -->
+<section id="roadmap">
+<div class="container">
+<div class="heading">Solo Roadmap</div>
+
+<div class="road-map"></div>
+<div class="road-map-line">
+
+<div class="road-map-content">
+<div class="roadmap-date">2018</div>
+<div class="road-map-content-sec">
+<div class="month-info">November / December</div>
+<div class="map-content">
+<ul>
+<li>Discord in operation</li>
+<li>Seed nodes in operation</li>
+<li> Hard fork at block 66,001- Slate becomes Solo</li>
+<li>   PoW improvements for lower end CPUs, CN-IO is born</li>
+<li>Resolved inherited syncing related issues and <br>
+node banning issues, stabilizing network</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="road-map-content">
+<div class="roadmap-date">2019</div>
+<div class="road-map-content-sec-right">
+<div class="month-info-right">January / February</div>
+<div class="map-content-right">
+<ul>
+<li>Emissions Schedule changed at block 88,001 - inspired by Bitcoin</li>
+<li>Code rebase from Masari/NERVA upstream</li>
+<li>Updated conditions that cause node bans, reduced unintentional banning<br>
+
+further stabilizing network</li>
+<li>Updated logging, color coding in Windows for easier reading</li>
+<li>Prepared ANNs</li>
+<li>Tested changes planned for v15 Hardfork. <a href="https://steemit.com/cryptocurrency/@rtmoney/solo-hardfork-testnet-post-mortem-analysis">Analysis here</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="road-map-content">
+<div class="road-map-content-sec">
+<div class="month-info2">March</div>
+
+
+<div class="map-content">
+<ul>
+
+<li>Logos/Branding created</li>
+<li>Website Launched</li>
+<li>Block Explorer Launched</li>
+<li>Gitlab Bot added to Discord,<br> announcing all repository events</li>
+<li>Social media accounts created, ANNs posted</li>
+<li>v1.0.3.5 released</li>
+</ul>
+</div>
+
+<div class="map-content-sm">
+<ul>
+<li>v15 Hardfork Scheduled for block 227,001</li>
+<li>SECOR (Uncle Mining) - Increased chain security,<br> allows for faster
+ block times</li>
+<li>Full Bulletproofs - Reduced transaction size, lower fees</li>
+<li>Fix for Upstream vulnerability reported<br> by RYO Developers merged</li>
+<li>Auto detection algorithm to auto-configure mining<br>
+threads added from Monero upstream</li>
+<li>20 Second Block Target in mainnet</li>
+<li>Mined money unlock window changed to 1000 blocks</li>
+<li>Mined Block reward reduced to<br> maintain emission schedule</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="road-map-content">
+<div class="road-map-content-sec-right">
+<div class="month-info-right2">April</div>
+<div class="map-content-right">
+<ul>
+<li>SoloPay (Herb) the Discord tipbot launched with lotto functionality</li>
+<li>Solo Wiki launched, to become documentation and FAQ repository</li>
+<li>v1.0.3.6 released, v16 Hardfork Scheduled for block 277,001</li>
+</ul>
+</div>
+
+<div class="map-content-sm-right">
+<ul>
+<li>Vulnerability Patch</li>
+<li>Logging improvements - Uncle Mining messages moved to a higher verbose level</li>
+<li> Adjusted DAA to address difficulty variance with faster block times</li>
+</ul>
+</div>
+
+<div class="map-content-right">
+<ul>
+<li>v1.0.3.7 released</li>
+</ul>
+</div>
+
+<div class="map-content-sm-right">
+<ul>
+<li>Logging improvements - node blocking messages moved to higher verbose level</li>
+<li>Block versions < v1.0.3.6</li>
+</ul>
+</div>
+
+<div class="map-content-right">
+<ul>
+<li>v1.0.3.8 released</li>
+</ul>
+</div>
+
+<div class="map-content-sm-right">
+<ul>
+<li>Block versions < v1.0.3.7, malicious client detected using v1.0.3.6</li>
+<li>Logging improvements - additional messages moved to higher verbose level</li>
+<li>Add checkpoints to improve v15 syncing</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="road-map-content">
+<div class="road-map-content-sec">
+<div class="month-info2" style="padding-right:120px;">May</div>
+<div class="map-content">
+<ul>
+<li>Solo listed on two exchanges for trading<br>(CRATEX and FirstCryptoBank)</li>
+<li>v1.0.4.0 released, Hardfork v17 set for block 350001</li>
+</ul>
+</div>
+
+<div class="map-content-sm">
+<ul>
+<li>DAA Window adjusted to 400 blocks from 180 in v17</li>
+<li>Change CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE to 20</li>
+<li>Optimizations to block syncing</li>
+</ul>
+</ul>
+</div>
+<div class="map-content">
+<ul>
+<li>v1.0.4.1, v1.0.4.2, and v1.0.4.3 released</li>
+</ul>
+</div>
+<div class="map-content-sm">
+<ul>
+<li>Remove obsolete functions</li>
+<li>General code cleanup</li>
+<li>Minimum version banning feature removed</li>
+</ul>
+</div>
+<div class="map-content">
+<ul>
+<li>v1.0.4.4 released, Hardfork v18 set for Block 440001</li>
+</ul>
+</div>
+<div class="map-content-sm">
+<ul>
+<li>Update DAA to latest LWMA1 (negative timestamp fix)</li>
+<li>Cleanup checkpoints, Remove obsolete code</li>
+<li>Release DAA (Difficulty Adjustment Algorithm) <a href="https://steemit.com/cryptocurrency/@rtmoney/solo-difficulty-adjustment-algorithm-changes-versions-16-18">research</a></li>
+
+</ul>
+</div>
+</div>
+
+<div class="road-map-content">
+<div class="road-map-content-sec-right">
+<div class="month-info-right2">June</div>
+<div class="map-content-right">
+<ul>
+<li>Solo listed for trading at exchange TradeCX</li>
+<li>v1.0.4.5 and v1.0.4.6 released</li>
+</ul>
+</div>
+
+<div class="map-content-sm-right">
+<ul>
+<li>Merge in contrib/depends from Monero upstream</li>
+<li>Increase db_readers default 126 -> 1024. This helps on<br>high core/thread count CPUs and multi-socket platforms.</li>
+</ul>
+</div>
+
+<div class="map-content-right">
+<ul>
+<li>Implement Gitlab CI for signed releases</li>
+<li>ARMHF and ARM64 binaries released</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="road-map-content">
+<div class="road-map-content-sec">
+<div class="month-info2" style="padding-right:120px;">July</div>
+<div class="map-content">
+<ul>
+<li>New website launched and roadmap released</li>
+<li>v1.0.4.7 and v1.0.4.8 released</li>
+</ul>
+</div>
+
+<div class="map-content-sm">
+<ul>
+<li>Merge in blockchain-export/import fixes <br>  from Masari upstream for Uncle blocks</li>
+<li>General code cleanup/optimization</li>
+<li>Remove redundant AES_NI check</li>
+<li>Additional Wallet2 key derivation failure logging</li>
+<li>Android64 binaries released</li>
+<li>XSL_DONATION_ADDR added</li>
+<li>Compile time build tests</li>
+<li>Remove redundant AES_NI check</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="road-map-content">
+<div class="road-map-content-sec-right">
+<div class="month-info-right">Future Development</div>
+<div class="map-content-right">
+<ul>
+
+<li>Listing and voting at additional exchanges</li>
+<li>GUI Wallet and one click miner</li>
+<li>Port Web wallet from Masari</li>
+<li>Develop iOS/Android mobile apps</li>
+<li>Technical whitepaper on CN-IO</li>
+<li>Blockchain based messaging feature</li>
+<li>Benchmark Mode - Feature will allow user to benchmark device <br> hashrates and cryptographically publish results to the blockchain</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+</section>
+
+
+<!-- End -->
+
+<!-- Contact Screen -->
+<section id="contact">
+<div class="container">
+<div class="heading">Contact Us</div>
+<div class="contact-logo"><a href=https://discord.minesolo.com/><img src="images/contact-logo.png"></a></div>
+
+<!-- <div class="contact-section"> 
+<div class="contact-col">
+<input type="text" placeholder="Name">
+<input type="text" placeholder="Email">
+
+</div>
+<div class="contact-col"><textarea rows="5">Message</textarea></div>
+<div class="btn-mng">
+<button class="submit-btn" type="button">SUBMIT</button>
+</div> -->
+
+<div class="social-link">
+<ul>
+<li><a href="https://twitter.com/SoloXsl"><img src="images/social-2.png"></a></li>
+<li><a href="https://www.reddit.com/r/soloproject/"><img src="images/social-4.png"></a></li>
+</ul>
+
+</div> 
+
+</div>
+<div class="copyright">Copyright © The Solo Project. All Rights Reserved. 2018-2019.  <a href="https://www.minesolo.com/legal.html">Legal</a></div>
+
+</div>
+</section>
+
+<!-- End -->
+
+
+</div> 
+
+
+   <div class="scroll-top-wrapper ">
+  <span class="scroll-top-inner">
+    <i class="fa fa-2x fa-arrow-circle-up"></i>
+  </span>
+</div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+<script src="js/scrolling-nav.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
+    
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
+    
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>-->
+    
+    <script>
+    
+    $(document).ready(function(){
+
+$(function(){
+ 
+    $(document).on( 'scroll', function(){
+ 
+    	if ($(window).scrollTop() > 1000) {
+			$('.scroll-top-wrapper').addClass('show');
+		} else {
+			$('.scroll-top-wrapper').removeClass('show');
+		}
+	});
+ 
+	$('.scroll-top-wrapper').on('click', scrollToTop);
+});
+ 
+function scrollToTop() {
+	verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+	element = $('body');
+	offset = element.offset();
+	offsetTop = offset.top;
+	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+}
+
+});
+
+    </script>
+  </body>
 </html>
