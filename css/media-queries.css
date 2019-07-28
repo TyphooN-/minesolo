@@ -174,7 +174,7 @@
     letter-spacing: 1px;
     text-align: justify;
 }
-.features-contant 
+.features-content 
 {
     width: 100%;
     float: left;
@@ -276,14 +276,14 @@
     font-size: 12px;
 	padding-bottom:10px;
 }
-.road-map-contant-sec-right 
+.road-map-content-sec-right 
 {
     width: 100%;
     float: right;
     padding-left: 20%;
     margin-top: 25px;
 }
-.road-map-contant-sec
+.road-map-content-sec
 {
 	width:100%;
 	float:left;
@@ -387,13 +387,13 @@
 	right:85px;
 	position:relative;
 }
-.road-map-contant
+.road-map-content
 {
 	width:100%;
 	float:left;
 	background-color:rgba(25,25,25,0.8);
 }
-.map-contant
+.map-content
 {
 	width:100%;
 	margin:10px 25px 25px 15px;
@@ -401,13 +401,13 @@
 	padding:10px;
 
 }
-.map-contant ul
+.map-content ul
 {
 	margin:0px;
 	padding:0px;
 	
 }
-.map-contant li
+.map-content li
 {
 	font-size:14px;
 	color: #d2d2d3;
@@ -418,7 +418,7 @@
 	background:url(../images/arrow7.png) no-repeat 0px 7px;
 	padding: 5px 16px;
 }
-.map-contant-right
+.map-content-right
 {
 	width:100%;
 	margin:10px 25px 25px 15px;
@@ -426,12 +426,12 @@
 	padding:10px;
 
 }
-.map-contant-right  ul
+.map-content-right  ul
 {
 	margin:0px;
 	padding:0px;
 }
-.map-contant-right li
+.map-content-right li
 {
 	font-size:14px;
 	color: #d2d2d3;
@@ -442,7 +442,7 @@
 	background:url(../images/arrow7.png) no-repeat 0px 7px;
 	padding: 5px 16px;
 }
-.map-contant-sm
+.map-content-sm
 {
 	width:100%;
 	float:left;
@@ -450,12 +450,12 @@
 	padding-right:0px;
 	padding-left:40px;
 }
-.map-contant-sm ul
+.map-content-sm ul
 {
 	margin:0px;
 	padding:0px;
 }
-.map-contant-sm li
+.map-content-sm li
 {
 	font-size:12px;
 	color: #d2d2d3;
@@ -466,7 +466,7 @@
 	background:url(../images/arrow9.png) no-repeat 0px 5px;
 	padding: 5px 15px;
 }
-.map-contant-sm-right
+.map-content-sm-right
 {
 	width:100%;
 	float:left;
@@ -474,12 +474,12 @@
 	padding-left: 25px;
     margin-top: 10px;
 }
-.map-contant-sm-right ul
+.map-content-sm-right ul
 {
 	margin:0px;
 	padding:0px;
 }
-.map-contant-sm-right li
+.map-content-sm-right li
 {
 	font-size:12px;
 	color: #d2d2d3;

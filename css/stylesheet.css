@@ -336,7 +336,7 @@ border:#000 solid 2px;
 	background:url(../images/heading-dark.png) no-repeat bottom center;
 	padding-bottom:12px;
 }
-.features-contant
+.features-content
 {
 	width:100%;
 	float:left;
@@ -468,20 +468,20 @@ border:#000 solid 2px;
 	right:85px;
 	position:relative;
 }
-.road-map-contant
+.road-map-content
 {
 	width:100%;
 	float:left;
 }
 
-.road-map-contant-sec
+.road-map-content-sec
 {
 	width:43%;
 	float:left;
 	padding-right:8px;
 	margin-top: 25px;
 }
-.map-contant
+.map-content
 {
 	width:100%;
 	float:left;
@@ -489,12 +489,12 @@ border:#000 solid 2px;
 	margin-top: 8px;
 	padding-right: 55px;
 }
-.map-contant ul
+.map-content ul
 {
 	margin:0px;
 	padding:0px;
 }
-.map-contant li
+.map-content li
 {
 	font-size:14px;
 	color: #d2d2d3;
@@ -517,7 +517,7 @@ border:#000 solid 2px;
 	letter-spacing:1px;
 	margin-bottom: 10px;
 }
-.road-map-contant-sec-right
+.road-map-content-sec-right
 {
 	width:57%;
 	float:right;
@@ -526,19 +526,19 @@ border:#000 solid 2px;
 	position:relative;
 	right:5px;
 }
-.map-contant-right
+.map-content-right
 {
 	width:100%;
 	float:right;
 	margin-top:8px;
 	padding-left: 55px;
 }
-.map-contant-right  ul
+.map-content-right  ul
 {
 	margin:0px;
 	padding:0px;
 }
-.map-contant-right li
+.map-content-right li
 {
 	font-size:14px;
 	color: #d2d2d3;
@@ -587,19 +587,19 @@ border:#000 solid 2px;
 	text-align:right;
 }
 
-.map-contant-sm
+.map-content-sm
 {
 	width:100%;
 	float:left;
 	margin-bottom: 20px;
 	padding-right:80px;
 }
-.map-contant-sm ul
+.map-content-sm ul
 {
 	margin:0px;
 	padding:0px;
 }
-.map-contant-sm li
+.map-content-sm li
 {
 	font-size:12px;
 	color: #d2d2d3;
@@ -610,7 +610,7 @@ border:#000 solid 2px;
 	background:url(../images/arrow8.png) no-repeat right;
 	padding: 5px 15px;
 }
-.map-contant-sm-right
+.map-content-sm-right
 {
 	width:100%;
 	float:left;
@@ -618,12 +618,12 @@ border:#000 solid 2px;
 	padding-left: 85px;
     margin-top: 10px;
 }
-.map-contant-sm-right ul
+.map-content-sm-right ul
 {
 	margin:0px;
 	padding:0px;
 }
-.map-contant-sm-right li
+.map-content-sm-right li
 {
 	font-size:12px;
 	color: #d2d2d3;
