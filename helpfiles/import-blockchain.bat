@@ -1,0 +1,1 @@
+solo-blockchain-import.exe --input-file blockchain.raw --verify 0
