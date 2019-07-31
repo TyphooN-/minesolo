@@ -400,8 +400,8 @@ border:#000 solid 2px;
 }
 .download-col
 {
-	width:25%;
-	float:left;
+	/*width:25%;
+	float:left;*/
 	padding-right: 30px;
     padding-left: 30px;
 	text-align:center;
